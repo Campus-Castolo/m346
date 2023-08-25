@@ -1,3 +1,9 @@
+# Naming convention AWS course files
+
+| short | name      | syntax            | example |
+|-------|-----------|-------------------|---------|
+|  s    |semester   | semester< module >| s1m1.md |
+
 # Antworten Lernziele - [Lernziele](/documentation/Lernziele.md)
 
 Inhalt und Lernziele von diesem Ma­nu­skript:
