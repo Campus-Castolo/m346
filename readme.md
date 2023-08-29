@@ -42,3 +42,9 @@ The documentation of what I've learned from module 346. This documentation holds
     14. Feedback and Reflection
     define how the project went, what are my views on it, am I content with what I did?
 4. Feedback and Reflection of the module
+
+This project documentation can be found here --> [Projectdocumentation](/projectdocumentation/README.md)
+
+# Project files
+Here you can find the relevant files for the project, including code, and IaC files.<br>
+[project files](/projectfiles/)
