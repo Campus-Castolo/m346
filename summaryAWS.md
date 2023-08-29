@@ -68,7 +68,7 @@ AWS comes from Amazon and means Amazon Web services, this service of Amazon spec
 
 to more clerly visualize this I've linked a graphic in which you can more clearly see how these types differ from eachother:
 
-![servicemodels](servicemodels.png)
+![servicemodels](images/servicemodels.png)
 
 4. Identify the benefits of cloud computing.<br>
 As I mentioned before there are multiple benefits of using cloud computing:
