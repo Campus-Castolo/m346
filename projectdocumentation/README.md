@@ -86,17 +86,25 @@ They contacted the external contractor per email with the following business opp
     • Educating the inten IT-staff to the new changes
     • Maintaining and monitor the cloud enviornment for the adjustment period (approx. 4 Weeks)
 
-    If you are interested in our job offer, kindly get in touch with us within 14 business days. Additionally, we kindly request that you provide us with a quotation.
+    If you are interested in our job offer, kindly get in touch with us within 14 business days. Additionally, we kindly request that you provide us with an invoice.
 
-    Upon 
 
-    We look forward to receiving your response and wish you the best of luck.
+    Upon receiving your invoice, we will assess your suitability as a candidate for our organization. We will then inform you of our decision and further details. Regardless of the outcome, we wish you the best of luck in your endeavors.
 
     Kind Regards
 
     Éric Doulmont
     Head of Engineering
     OrgInv Corporation
+    Genéve, Rue de Rhône 29
+
+As you can see from this email that Éric Doulmont has sent me I was given a potential job offer, by migrating an existing on premise infrastructure into the cloud.
+
+He also tasked me to create an invoice [in ger. Offerte] this means that I have to make a rough estimate of all the cost ± 2500 CHF.
+
+
+
+
     
 
 
