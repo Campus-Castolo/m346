@@ -1,64 +1,31 @@
-# Projectdocumentation - Orginv
+## Task explaination
 
-## Introduction
-In the imaginative scenario I have crafted, I am poised to execute the deployment of Orginv's&trade; pioneering masterpiece: the Orginv Orchestrator&trade; application, leveraging the dynamic capabilities of the cloud infrastructure. At the helm of this technological endeavor stands Orginv, a paragon of organizational finesse, dedicated to the mastery of harmonizing intricate systems. With a laser-sharp focus, Orginv's expertise is meticulously tailored towards the optimization of warehouse management, revolutionizing the very essence of efficient organizational paradigms.
+As previously articulated, the primary objective of this module is to proficiently strategize and execute a backup solution for an organization based on the given guidelines.
 
-Orginv™ specializes in creating applications designed to streamline and optimize labor-intensive tasks. These tasks encompass a wide range of activities, including intricate processes like meticulous article and box sorting, coupled with precise placement within designated aisles. Beyond its primary application, Orginv™ introduces the Orginv Orchestrator™, further enhancing its utility.
+To facilitate this project, I have created a imaginary corportaion specializing in warehouse management and customer-centric solutions.
 
-In light of Orginv™ and the advanced Orginv Orchestrator™, I find myself inclined to leverage my personally developed application. Crafted using Python and presented as a robust Flask-based solution, this application represents a significant advancement. Originally recognized under the title "TrustGuard," my application now stands as a testament to innovation and tailored functionality.
+Within this hypothetical context, I have assumed the role of an external contractor working at tasked with orchestrating the migration of the pre-existing on-premises infrastructure into a cloud-based environment.
 
-## 1. Definition of My Goals
+This imaginary corporation is a mega corporation that is based in Europe. Their name is OrgInv.
 
-Outline the goals that your project aims to achieve. These goals should be specific, measurable, achievable, relevant, and time-bound (SMART).
+OrgInv is a fictional corporation that originated in Geneva, located in central Europe. OrgInv was established by Frédéric Valmouz in the 1950. Since then they grew by approximately 10'000%. With their numbers now boasting 5000 employees world wide.
 
-## 2. Tools I Used
+In 2022 OrgInv finally decided that they would switch from on-premise solutions to cloud-based solutions, however they are facing a problem. The problem being that they don't have adequate IT-professionals which could do this on their own. So they decided to hire an external contractor.
 
-List the tools, software, and technologies you used to complete your project. This could include development environments, version control systems, editors, and other relevant tools.
+They contacted the external contractor per email with the following business opportunity:
 
-I have used the 
+    From: Éric Doulmont, Head of Engineering OrgInv <éric.doulmont@orginv.com>
+    Sent: Monday, September 4, 2023 10:00:01 AM
+    To: customer service, IMAM Institution <customer.service@imam.com>
+    Subject: Business proposal migration from on-premise to cloud
 
-## 3. Overview of Project
+    Dear IMAM customer service team,
 
-Provide a high-level executive summary of your project. Describe its purpose, target audience, and the problem it addresses.
+    We contact you, due to a deciscion we made last year during our annual management meeting. Together we have made the executive desicion that it would be more cost effective, to downscale our on-prem infrastructure and migrate to a cloud-based enviornment.
 
-## 4. Project Scope
+    Since this is a large scale project for us we have made a bulletlist of what need to be done:
 
-Define the boundaries of your project. What features and functionalities are possible to implement within the allocated time frame? Identify any limitations or aspects that might not be achievable.
-
-## 5. Project Timeline
-
-Document the timeline of your project. How long did each phase take? Include milestones, development stages, and any delays that occurred.
-
-## 6. Requirements
-
-Outline the requirements of your project. This could involve software packages, system specifications, and any infrastructure needed to run your project.
-
-## 7. Architecture and Design
-
-Present an overview of your project's architecture and design. Provide a simplified diagram that shows the components and how they interact.
-
-## 8. Technical Stack
-
-List the programming languages, frameworks, libraries, and tools you used in your project's development.
-
-## 9. Setup
-
-Explain how you set up your project environment. This could include installation instructions, configuration steps, and any dependencies required.
-
-## 10. Testing
-
-Define a testing case and document it. Describe the testing approach you followed, which aspects were tested, and how you ensured the quality of your project.
-
-## 11. Security Considerations
-
-Identify potential security concerns related to your project. Discuss any vulnerabilities you encountered and how you addressed or mitigated them.
-
-## 12. Additional Content
-
-Describe any additional components used in your project, such as databases, APIs, or third-party integrations.
-
-## 13. Feedback and Reflection
-
-Share your thoughts on how the project went. Reflect on its successes and challenges, and whether you are satisfied with the final outcome. Discuss any lessons learned and improvements you would make in the future.
-
-Feel free to populate each section with relevant details about your project. This structure will help provide a clear and organized overview of your project's key aspects.
+    • Analyzing the current state of the OrgInv Infrastructure
+    • Optimizing the OrgInv Infrastructure and creating a plan for the optimized infrastructure.
+    • Drafting a cost-estimation
+    • The creation of a graphic that allows one to have a high-level overview over the cloud-based infrastructure.
