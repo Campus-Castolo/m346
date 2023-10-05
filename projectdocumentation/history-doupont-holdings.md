@@ -6,7 +6,7 @@ Expanding its presence, Doupont Holdings LLC ventured into the dynamic environme
 
 Not forgetting their roots, the refurbished Mille-Feuille patisserie in Geneva stands as a tribute to the once-thriving founder of both Mille-Feuille patisserie and Doupont Holdings LLC. Even to this day, the Mille-Feuille patisserie holds a special place as the heart and symbol of the company at its original street corner.
 
-## What are the Values of Doupont Holdings
+## What are the Values of Doupont Holdings LLC
 
 At Doupont Holdings LLC, we understand the significance of values in building a strong foundation for any business. We believe that staying true to our core values is crucial for achieving long-term success and maintaining a positive impact on our stakeholders and society as a whole.
 
