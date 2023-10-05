@@ -2,7 +2,7 @@
 Configurations I made regarding the VPC
 
 ## VPC Subent
-![Alt text](images/image.png)
+![Alt text](images/vpc-subnet.png)
 
 | Subnet        | Available IPs | Region     | Type    | name-type | Services                                      |
 |---------------|---------------|------------|---------|-----------|-----------------------------------------------|
