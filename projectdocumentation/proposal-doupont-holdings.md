@@ -1,6 +1,6 @@
     From: Éric Doulmont, Head of Engineering Doupont Holdings LLC <éric.doulmont@orginv.com>
     Sent: Monday, September 4, 2023 10:00:01 AM
-    To: customer service, IMAM Institution <customer.service@imam.com>
+    To: customer service, IMAIM Institution <customer.service@imaim.com>
     Subject: Business proposal migration from on-premise to cloud
 
     Dear IMAM customer service team,
