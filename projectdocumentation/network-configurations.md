@@ -19,4 +19,4 @@ Configurations I made regarding the VPC
 | doupont-holdings | security-group | private     | us-east-1* |
 
 ### security group public us-east-1*
-![Alt text](image-1.png)
+![security group dhllc inbound](images/inbound-sg-dhllc.png)
