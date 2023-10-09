@@ -7,7 +7,9 @@
 |                                           |                     |                   |                    |                   |
 |                                           |                     |                   |                    |                   |
 
-## Configurations doupont-holdings-ec2-webserver-us-east-1a
+<details> 
+    <summary> <h2>Configurations doupont-holdings-ec2-webserver-us-east-1a</h2></summary>
+
 ### Applications and OS Images
 ![Alt text](images/os-img-webserver.png)
 ### Instance type
@@ -18,3 +20,6 @@
 ![Alt text](images/network-settings-ec2-webserver.png)
 ### Storage
 ![Alt text](images/storage-webserver.png)
+
+</details>
+
