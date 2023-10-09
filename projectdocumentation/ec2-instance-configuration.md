@@ -20,6 +20,7 @@
 ![Alt text](images/network-settings-ec2-webserver.png)
 ### Storage
 ![Alt text](images/storage-webserver.png)
+### Elastic IP-Address
 
 </details>
 
