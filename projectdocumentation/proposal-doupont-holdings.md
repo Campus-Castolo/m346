@@ -1,29 +1,29 @@
     From: Éric Doulmont, Head of Engineering Doupont Holdings LLC <éric.doulmont@orginv.com>
-    Sent: Monday, September 4, 2023 10:00:01 AM
+    Sent: Monday, September 4, 2015 10:00:01 AM
     To: customer service, IMAIM Institution <customer.service@imaim.com>
-    Subject: Business proposal migration from on-premise to cloud
+    Subject: Request for Cloud Migration Proposal - Doupont Holdings LLC
 
-    Dear IMAM customer service team,
+    Dear IMAM Customer Service Team,
 
-    We contact you, due to a deciscion we made last year during our annual management meeting. Together we have made the executive desicion that it would be more cost effective, to downscale our on-prem infrastructure and migrate to a cloud-based enviornment.
+    I trust this message finds you in good health. On behalf of Doupont Holdings LLC, I am writing to you to discuss a significant decision that was made during our annual management meeting last year. As a collective, we have determined that migrating from our current on-premises infrastructure to a cloud-based environment is the most cost-effective solution for our organization.
 
-    Since this is a large scale project for us we have made a bulletlist of what needs to be done:
+    Given the substantial nature of this project and our current internal resource constraints due to ongoing projects, we are seeking external assistance. We have compiled a comprehensive list of tasks that must be undertaken:
 
-    • Analyzing the current state of the Doupont Holdings infrastructure.
-    • Create a cloud based infrastructure plan based on the old state of the Doupont Holdings infrastructure.
-    • Creating the cloud based infrastructure with the nessecary services on it e.g. (Webserver, Applicationserver etc.)
-    • Creating a systemdocumentation of the cloud based infrastructure.
-    • Creating a Testprotocoll and test the for functionality.
-    • Educating our current IT-Staff on the changes made.
-    • Support for end of warm-up period (2 Weeks).
+    1. Evaluate the Current Infrastructure of Doupont Holdings LLC.
+    2. Develop a Cloud-Based Infrastructure Plan Based on the Evaluation.
+    3. Provide an Initial Cost Estimate (Monthly Expenses).
+    4. Maintain Operational Documentation.
+    5. Oversee the Implementation of the Project.
 
-    If you are interested in our job offer, kindly get in touch with us within 14 business days. Additionally, we kindly request that you provide us with a quota.
+    If your organization is interested in collaborating with us on this initiative, we kindly request that you reach out to us within the next 14 business days. Furthermore, we would greatly appreciate it if you could provide us with a detailed proposal, along with a quotation.
 
-    Upon receiving your quota, we will assess your suitability as a candidate for our organization. We will then inform you of our decision and further details. Regardless of the outcome, we wish you the best of luck in your endeavors.
+    Upon receipt of your proposal, we will conduct a thorough evaluation of your suitability as a potential partner for our organization. Subsequently, we will communicate our decision and share additional details. Regardless of the outcome, we extend our best wishes to you in all your endeavors.
 
-    Kind Regards
+    We appreciate your consideration of our request and eagerly anticipate the possibility of working together.
+
+    Kind Regards,
 
     Éric Doulmont
     Head of Engineering
     Doupont Holdings LLC
-    Genéve, Rue de Rhône 29
+    Geneva, Rue de Rhône 29
