@@ -9,7 +9,7 @@
 
 ![SSH Instructions](images/ec2-ssh-connect.gif)
 
-**Step 3: Open your Terminal**
+### **Step 3: Open your Terminal**
 - Once you have the SSH command, open a Terminal of your choice. You can usually find Terminal on macOS or use a program like PuTTY on Windows.
 <details>
 <summary>🚨Important</summary>
@@ -33,6 +33,9 @@ Press Enter to run the command. You may be prompted to confirm the connection by
 
 You should now be connected to your EC2 Instance over SSH. Make sure to replace "Valhalla.pem" and the EC2 Instance address with your specific key file and instance details.
 
+<br>
+<br>
+
 ## Install the necessary packages
 
 ### **Step 1 - Install Apache**
@@ -54,7 +57,7 @@ This command will download the apache2 package and the `-y` option will accept a
 
 Here you don't need to do anything, because you already have a firewall provided by AWS. This is managed over the security groups. See here [📄Network Configurations](network-configurations.md#security-group-public-us-east-1)
 
-### **Step 3 - Checking your Web Server
+### **Step 3 - Checking your Web Server**
 
 At the end of the installation process, Ubuntu 20.04 starts Apache. The web server should already be up and running.
 
