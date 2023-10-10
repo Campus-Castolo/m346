@@ -1,4 +1,4 @@
-    From: Éric Doulmont, Head of Engineering Doupont Holdings LLC <éric.doulmont@orginv.com>
+    From: Éric Doulmont, Head of Engineering Doupont Holdings LLC <éric.doulmont@doupont-holdings.com>
     Sent: Monday, September 4, 2015 10:00:01 AM
     To: customer service, IMAIM Institution <customer.service@imaim.com>
     Subject: Request for Cloud Migration Proposal - Doupont Holdings LLC

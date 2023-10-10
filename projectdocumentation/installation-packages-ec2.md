@@ -325,3 +325,236 @@ sudo systemctl restart apache2
 Apache should now be serving your domain name. You can test this by navigating to `http://Server-IP`, where you should see something like this:
 
 ![Doupont Holdings LLC](images/Doupont-Holdings-LLC-Webpage.png)
+
+### **Step 6 - Securing the connection**
+You have successfully completed step 5, which means your custom website is now up and running on your Apache2 web server. However, there is one crucial issue remaining – your website lacks a secure connection, currently operating on HTTP. Fortunately, rectifying this is a straightforward process, with two viable options available.
+
+- **Option 1**: If you have a domain, you can utilize Certbot to secure your website with a valid SSL certificate.
+
+- **Option 2**: If you don't have a domain, you can opt for a self-signed certificate to establish a basic level of security for your website.
+
+Please choose the option that best suits your needs and proceed accordingly to enhance the security of your website.
+
+<details>
+<summary>Important Note</summary>
+
+If you own a domain such as `doupont-holdings.com` or `it-ology.ch`, you have the flexibility to select between two available options: Certbot and self-signed certificates. I highly recommend opting for Certbot in this case, as it offers a more robust and trusted solution for securing your website.
+
+However, if you do not possess a domain, your sole viable choice is to utilize a self-signed certificate to establish a secure connection for your website.
+
+</details>
+
+
+<details>
+    <summary><h3><strong>Setup CertBot on Amazon Linux</strong></h3></summary>
+
+### Step 1: Update Package Manager
+
+The first step is to ensure that your package manager is up-to-date. This is important to ensure that you have access to the latest packages and security updates. 
+
+Run the following command to update the package manager:
+
+```bash
+sudo yum update
+```
+
+This command will check for available updates and prompt you to confirm the installation. Enter 'y' if prompted to proceed with the update.
+
+### Step 2: Install CertBot
+
+Once your package manager is updated, you can proceed to install CertBot. CertBot can be installed via the EPEL (Extra Packages for Enterprise Linux) repository, so you'll need to enable it first.
+
+Enable the EPEL repository with the following command:
+
+```bash
+sudo amazon-linux-extras install epel
+```
+
+Now, you can install CertBot and its Apache plugin (if you are using Apache) using the following command:
+
+```bash
+sudo yum install certbot python2-certbot-apache
+```
+
+CertBot and the Apache plugin are now installed on your server.
+
+### Step 3: Configure CertBot
+
+CertBot is now installed, but you'll need to configure it for your specific web server and domain. This configuration will vary depending on whether you're using Apache or another web server. Refer to the official CertBot documentation for detailed instructions on configuring CertBot for your specific setup.
+
+### Step 4: Obtain SSL/TLS Certificates
+
+After configuring CertBot, you can use it to obtain SSL/TLS certificates for your domain. Run the following command to request a certificate and follow the on-screen instructions:
+
+```bash
+sudo certbot --apache
+```
+
+CertBot will interactively ask you to select the domains you want to secure and make necessary configurations.
+
+### Step 5: Automatically Renew Certificates (Optional)
+
+It's important to automatically renew your SSL/TLS certificates to ensure they remain valid. CertBot can set up a cron job to handle certificate renewals automatically. To do this, run:
+
+```bash
+sudo certbot renew --dry-run
+```
+
+This will simulate the renewal process to ensure it's working correctly. If successful, CertBot will automatically renew your certificates when they are close to expiration.
+
+</details>
+
+
+
+<details>
+    <summary><h3><strong>Setup CertBot on Ubuntu</strong></h3></summary>
+
+### Step 1: Update Package Manager
+
+The first step is to ensure that your package manager is up-to-date. This is important to ensure that you have access to the latest packages and security updates.
+
+Run the following command to update the package manager:
+
+```bash
+sudo apt update
+```
+
+This command will check for available updates and prompt you to confirm the installation. Enter 'y' if prompted to proceed with the update.
+
+### Step 2: Install CertBot
+
+Once your package manager is updated, you can proceed to install CertBot. CertBot is available in the default Ubuntu repositories, so you can install it directly with the following command:
+
+```bash
+sudo apt install certbot
+```
+
+CertBot is now installed on your server.
+
+### Step 3: Configure CertBot
+
+CertBot is now installed, but you'll need to configure it for your specific web server and domain. This configuration will vary depending on whether you're using Apache, Nginx, or another web server. Refer to the official CertBot documentation for detailed instructions on configuring CertBot for your specific setup.
+
+### Step 4: Obtain SSL/TLS Certificates
+
+After configuring CertBot, you can use it to obtain SSL/TLS certificates for your domain. Run the following command to request a certificate and follow the on-screen instructions:
+
+```bash
+sudo certbot --apache
+```
+
+Or, if you are using Nginx:
+
+```bash
+sudo certbot --nginx
+```
+
+CertBot will interactively ask you to select the domains you want to secure and make necessary configurations.
+
+### Step 5: Automatically Renew Certificates (Optional)
+
+It's important to automatically renew your SSL/TLS certificates to ensure they remain valid. CertBot can set up a systemd timer to handle certificate renewals automatically. To do this, run:
+
+```bash
+sudo systemctl enable certbot.timer
+```
+
+This will set up a scheduled task to renew your certificates when they are close to expiration.
+
+You can also manually test the renewal process by running:
+
+```bash
+sudo certbot renew --dry-run
+```
+
+This will simulate the renewal process to ensure it's working correctly. If successful, CertBot will automatically renew your certificates when they are close to expiration.
+
+</details>
+
+<details>
+    <summary><h3><strong>Setup Self-Signed SSL/TLS Certificate on Ubuntu</strong></h3></summary>
+
+### Step 1: Generate a Self-Signed Certificate
+
+The first step is to generate a self-signed SSL/TLS certificate for your server. You can use the OpenSSL tool to create a self-signed certificate.
+
+Run the following command to generate a self-signed certificate:
+
+```bash
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/self-signed.key -out /etc/ssl/certs/self-signed.crt
+```
+
+This command will create a private key (`self-signed.key`) and a self-signed certificate (`self-signed.crt`) that is valid for 365 days. Adjust the validity period as needed.
+
+### Step 2: Configure Your Web Server
+
+Next, you need to configure your web server (e.g., Apache or Nginx) to use the self-signed certificate. You will need to specify the path to the key and certificate files in your web server configuration.
+
+```apache
+sudo nano /etc/apache2/sites-available/default-ssl.conf
+```
+
+For Apache, you can edit your virtual host configuration file and add the following lines:
+
+```apache
+SSLCertificateFile /etc/ssl/certs/self-signed.crt
+SSLCertificateKeyFile /etc/ssl/private/self-signed.key
+```
+
+it should look like this:
+
+```apache
+<VirtualHost *:443>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/your_domain
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/certs/selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/selfsigned.key
+    ...
+</VirtualHost>
+```
+
+For Nginx, edit your server block configuration file:
+
+```nginx
+ssl_certificate /etc/ssl/certs/self-signed.crt;
+ssl_certificate_key /etc/ssl/private/self-signed.key;
+```
+
+### Step 3: Restart Your Web Server
+
+After configuring your web server, you should restart it to apply the changes. The specific command to restart your web server depends on which one you are using.
+
+For Apache:
+
+```bash
+sudo systemctl restart apache2
+```
+
+For Nginx:
+
+```bash
+sudo systemctl restart nginx
+```
+
+assign them
+
+```apache
+sudo a2enmod ssl
+sudo a2ensite default-ssl
+```
+
+to finalize the changes
+
+```apache
+sudo systemctl restart apache2
+```
+
+### Step 4: Access Your Website
+
+Your self-signed SSL/TLS certificate is now in place. When you visit your website using HTTPS, your browser will show a warning that the certificate is not trusted since it's self-signed. You can choose to proceed and access your website securely.
+
+Remember that self-signed certificates are not suitable for production websites but are useful for testing and development environments.
+
+</details>
+
