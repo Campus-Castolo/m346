@@ -1,11 +1,11 @@
 # EC2 Instance Configurations
 
-| object                                    | ID                  | public IP-address | private IP-address | description       |
-|-------------------------------------------|---------------------|-------------------|--------------------|-------------------|
-| doupont-holdings-ec2-webserver-us-east-1a | i-028052575193fbcbf | 54.83.134.192     | 10.0.0.10          | uses key Valhalla |
-|                                           |                     |                   |                    |                   |
-|                                           |                     |                   |                    |                   |
-|                                           |                     |                   |                    |                   |
+| object                                    | ID                  | private IP-address | uses elastic IP | public elastic IP-Adress | description                                              |
+|-------------------------------------------|---------------------|--------------------|-----------------|--------------------------|----------------------------------------------------------|
+| doupont-holdings-ec2-webserver-us-east-1a | i-028052575193fbcbf | 10.0.0.10          | yes             | 52.70.73.92              | uses key Valhalla uses global accelerator for elastic IP |
+|                                           |                     |                    |                 |                          |                                                          |
+|                                           |                     |                    |                 |                          |                                                          |
+|                                           |                     |                    |                 |                          |                                                          |
 
 <details> 
     <summary> <h2>Configurations doupont-holdings-ec2-webserver-us-east-1a</h2></summary>
