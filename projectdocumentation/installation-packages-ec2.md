@@ -1,6 +1,10 @@
 # EC2 Instance packages installation
 
-## Connect to AWS EC2 Instance over SSH
+<details>
+<summary><h2>Configuration Doupont Holdings LLC Webserver Apache</h2></summary>
+
+
+### Connect to AWS EC2 Instance over SSH
 
 ### **Step 1: Locate your .pem or .ppk file**
 - First, ensure you have the .pem or .ppk file you previously generated and downloaded. If you can't find it, check your Downloads folder.
@@ -160,12 +164,16 @@ Inside, the `index.html` add your html of your liking, for me I used this:
 <summary>📄HTML</summary>
 
 ```html
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doupont Holdings LLC</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css" />
     <!-- Include UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
     <!-- Include UIkit JavaScript -->
@@ -176,7 +184,7 @@ Inside, the `index.html` add your html of your liking, for me I used this:
     <header>
         <nav class="uk-navbar-container" uk-navbar>
             <div class="uk-navbar-left">
-                <a class="uk-navbar-item uk-logo" href="#">Doupont Holdings LLC</a>
+                <a class="uk-navbar-item uk-logo" href="#contact"><img class="logo-banner" src="/img/doupont_holdings_logo_banner.png"></a>
             </div>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
@@ -190,21 +198,47 @@ Inside, the `index.html` add your html of your liking, for me I used this:
     </header>
 
     <!-- Hero Section -->
-    <section class="uk-section uk-section-primary uk-light">
-        <div class="uk-container">
-            <div class="uk-text-center">
-                <h2>Welcome to Doupont Holdings LLC</h2>
-                <p>Your Partner in Business Success</p>
-                <a href="#contact" class="uk-button uk-button-default">Contact Us</a>
-            </div>
+    <section class="uk-light">
+
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+            <ul class="uk-slideshow-items">
+
+                <li>
+                    <img src="/img/doupnt_holdings_banner_slideshow.png" alt="" uk-cover>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    </div>
+                </li>
+
+                <li>
+                    <img src="/img/doupont_holdings_world_wide_locations.png" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
+                        <div uk-lightbox>
+                            <a class="uk-button uk-button-default" href="/map/dhllc-locations.html" data-caption="Caption">Open World Map</a>
+                            <p>See where you can visit us!</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+        
         </div>
+
     </section>
 
     <!-- About Section -->
     <section id="about" class="uk-section">
         <div class="uk-container">
             <h2 class="uk-heading-small">About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut lorem at libero euismod vehicula vel vel justo. Proin sagittis tortor ut nunc cursus, sit amet luctus velit scelerisque.</p>
+            <p>
+                Doupont Holdings LLC, originally founded as Mille-Feuille in Geneva during the Great Depression by Frédéric Doupont, evolved from a pastry vendor into a finance-focused subsidiary under Éric Doupont's leadership in New York City.<br>
+                In 1950, the company established a branch in Geneva, becoming a pivotal hub for international business expansion.<br>
+                In the 1970s, Doupont Holdings strategically acquired Techtronics Inc. in Silicon Valley, GreenGro Farms in agribusiness, and EcoPower Systems in renewable energy, diversifying its portfolio and adapting to emerging industries.<br>
+                For their 80th anniversary in 1980, Doupont Holdings acquired EuroStock Traders Ltd. in London, solidifying their presence in the European financial markets.<br>
+                Throughout its history, Doupont Holdings has maintained a tribute to its humble pastry origins with the Mille-Feuille patisserie in Geneva, while expanding its global influence in finance, technology, agriculture, and renewable energy.<br>
+            </p>
         </div>
     </section>
 
@@ -215,20 +249,20 @@ Inside, the `index.html` add your html of your liking, for me I used this:
             <div class="uk-child-width-1-3@m uk-grid-small" uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
-                        <h3 class="uk-card-title">Service 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut lorem at libero euismod vehicula vel vel justo.</p>
+                        <h3 class="uk-card-title">Global Financial Advisory Services</h3>
+                        <p>Doupont Holdings LLC offers comprehensive financial advisory services to individuals and businesses worldwide. Our team of experienced professionals provides expert guidance on investment strategies, wealth management, risk assessment, and financial planning. Whether you're planning for retirement, expanding your portfolio, or navigating complex financial markets, we tailor solutions to meet your specific needs and financial goals.<br><br></p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
-                        <h3 class="uk-card-title">Service 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut lorem at libero euismod vehicula vel vel justo.</p>
+                        <h3 class="uk-card-title">Innovative Technology Solutions</h3>
+                        <p>As a diversified conglomerate, Doupont Holdings is at the forefront of technology innovation. We provide cutting-edge technology solutions through our subsidiary, Techtronics Inc. Whether you require custom software development, hardware solutions, or technology consulting, we have the expertise to drive your business forward in the digital age. Our commitment to staying ahead of technological advancements ensures that you remain competitive and agile in a rapidly evolving tech landscape.</p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
-                        <h3 class="uk-card-title">Service 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut lorem at libero euismod vehicula vel vel justo.</p>
+                        <h3 class="uk-card-title">Sustainable Agriculture and Agribusiness</h3>
+                        <p>Doupont Holdings' subsidiary, GreenGro Farms, specializes in sustainable agriculture and agribusiness solutions. We offer a range of services, including environmentally conscious farming practices, crop optimization, and supply chain management. Our focus on sustainable agriculture not only promotes ecological responsibility but also enhances profitability for agricultural businesses looking to meet the growing global demand for eco-friendly food production.</p>
                     </div>
                 </div>
             </div>
@@ -238,6 +272,7 @@ Inside, the `index.html` add your html of your liking, for me I used this:
     <!-- Portfolio Section -->
     <section id="portfolio" class="uk-section">
         <div class="uk-container">
+            <h2 class="uk-heading-small">Your Portfolio</h2>
             <!-- Add your portfolio items here -->
         </div>
     </section>
@@ -274,8 +309,10 @@ Inside, the `index.html` add your html of your liking, for me I used this:
             </div>
         </div>
     </footer>
+
 </body>
 </html>
+
 
 ```
 </details>
@@ -556,5 +593,6 @@ Your self-signed SSL/TLS certificate is now in place. When you visit your websit
 
 Remember that self-signed certificates are not suitable for production websites but are useful for testing and development environments.
 
+</details>
 </details>
 
