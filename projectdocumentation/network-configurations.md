@@ -2,7 +2,6 @@
 Configurations I made regarding the VPC
 
 ## VPC Subent
-![Alt text](images/vpc-subnet.png)
 
 | Name                                        | Subnet ID                | State     | VPC                                           | IPv4 CIDR    | IPv6 CIDR  | Available IPv4 addresses  | Availability Zone  | Availability Zone ID  | Network border group  | Route table                                                       | Network ACL           | Default subnet  | Auto-assign public IPv4 address  | Auto-assign customer-owned IPv4 address  | Customer-owned IPv4 pool  | Auto-assign IPv6 address  | Owner ID     |
 |---------------------------------------------|--------------------------|-----------|-----------------------------------------------|--------------|------------|---------------------------|--------------------|-----------------------|-----------------------|-------------------------------------------------------------------|-----------------------|-----------------|----------------------------------|------------------------------------------|---------------------------|---------------------------|--------------|
@@ -19,4 +18,9 @@ Configurations I made regarding the VPC
 | doupont-holdings | security-group | private     | us-east-1* |
 
 ### security group public us-east-1*
-![security group dhllc inbound](images/inbound-sg-dhllc.png)
+<details>
+<summary><h4>inbound rules</h4></summary>
+<details>
+<details>
+<summary><h4>outbound rules</h4></summary>
+<details>
