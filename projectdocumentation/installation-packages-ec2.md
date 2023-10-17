@@ -384,7 +384,8 @@ You should receive the following output:
     Syntax OK
 Restart Apache to implement your changes:
 
-sudo systemctl restart apache2
+    sudo systemctl restart apache2
+    
 Apache should now be serving your domain name. You can test this by navigating to `http://Server-IP`, where you should see something like this:
 
 ![Doupont Holdings LLC](images/Doupont-Holdings-LLC-Webpage.png)

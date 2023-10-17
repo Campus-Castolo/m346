@@ -12,15 +12,11 @@ Configurations I made regarding the VPC
 
 ## Security Groups
 
-| firm             | object         | networktype | region     |
-|------------------|----------------|-------------|------------|
-| doupont-holdings | security-group | public      | us-east-1* |
-| doupont-holdings | security-group | private     | us-east-1* |
+| Name | Security group ID | Security group name  | VPC ID                                             | Description           | Owner                                                                   | Inbound rules count | Outbound rules count |                    |
+|------|-------------------|----------------------|----------------------------------------------------|-----------------------|-------------------------------------------------------------------------|---------------------|----------------------|--------------------|
+|      | –                 | sg-0c904ed52ca0411b6 | doupont-holdings-security-group-public-us-east-1*  | vpc-0d79a547f05e2389c | The Security Group for services and instances in the public subent area | 195554538225        | 5 Permission entries | 1 Permission entry |
+|      | –                 | sg-038606f48f0a2d8b3 | doupont-holdings-security-group-private-us-east-1* | vpc-0d79a547f05e2389c | The security group for services and instances in private subnet         | 195554538225        | 1 Permission entry   | 1 Permission entry |
 
 ### security group public us-east-1*
-<details>
-<summary><h4>inbound rules</h4></summary>
-<details>
-<details>
-<summary><h4>outbound rules</h4></summary>
-<details>
+
+
