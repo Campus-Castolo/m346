@@ -22,5 +22,7 @@ Configurations I made regarding the VPC
 ![inbound-private-sg](images/sg-private-inbound.png)
 ![outbound-private-sg](images/sg-private-outbound.png)
 
+### sg-0900d6e52059000f0 - doupont-holdings-security-group-public-us-east-1*
+
 ![inbound-public-sg](images/sg-public-inbound.png)
 ![outbound-public-sg](images/sg-public-outbound.png)
