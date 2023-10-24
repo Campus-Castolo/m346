@@ -17,6 +17,10 @@ Configurations I made regarding the VPC
 |      | –                 | sg-0c904ed52ca0411b6 | doupont-holdings-security-group-public-us-east-1*  | vpc-0d79a547f05e2389c | The Security Group for services and instances in the public subent area | 195554538225        | 5 Permission entries | 1 Permission entry |
 |      | –                 | sg-038606f48f0a2d8b3 | doupont-holdings-security-group-private-us-east-1* | vpc-0d79a547f05e2389c | The security group for services and instances in private subnet         | 195554538225        | 1 Permission entry   | 1 Permission entry |
 
-### security group public us-east-1*
+### sg-025881bd78da765b2 - doupont-holdings-security-group-private-us-east-1*
 
+![inbound-private-sg](images/sg-private-inbound.png)
+![outbound-private-sg](images/sg-private-outbound.png)
 
+![inbound-public-sg](images/sg-public-inbound.png)
+![outbound-public-sg](images/sg-public-outbound.png)
