@@ -15,5 +15,8 @@ The E-Mail sent by the Head of Engineering at Doupont Holdings LLC, stating that
 ## [Namingconvention](projectdocumentation/naming-convention.md)
 Gives an Insight into the naming convention I used for the Doupont Holdings LLC, cloud based enviornment.
 
-## [Network Configurations](projectdocumentation/network-configurations.md)
-Gives an Insight into the configurations I made for the Doupont Holdings LLC, cloud based enviornment.
+## [VPC Subnet Configurations](projectdocumentation/network-configurations.md#vpc-subent)
+Gives an Insight into the configurations I made for the Doupont Holdings LLC VPC, cloud based enviornment.
+
+## [VPC Security Group Configurations](projectdocumentation/network-configurations.md#security-groups)
+Gives an Insight into the configuration I made for the Doupont Holdings LLC SGs.
