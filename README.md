@@ -14,7 +14,6 @@ Gives an insight into the core-values of Doupont Holdings.
 ### [Business Proposal](projectdocumentation/introduction/proposal-doupont-holdings.md)
 The E-Mail sent by the Head of Engineering at Doupont Holdings LLC, stating that Doupont Holdings is in need of a migration from some on-prem services.
 
----
 
 ## A1 - Analysis
 
@@ -29,12 +28,14 @@ Gives an insight which DHLLC Applications could be migrated to the cloud.
 
 ## B1 - Evaluation servicemodels
 
-### [Optimal Servicemodel](projectdocumentation/B1-servicemodel/)
-Gives an insight of which servicemodels fit Doupont Holdings LLC the best based on the previous analysis.
+### [General explaination of service models](projectdocumentation/B1-servicemodel/evaluation-of-servicemodel.md#servicemodels)
+Gives an rough overview over the different service models
 
-### [Why these Servicemodels](projectdocumentation/B1-servicemodell/)
+### [Positives and Negatives for Doupont Holdings LLC](projectdocumentation/B1-servicemodel/evaluation-of-servicemodel.md#servicemodels-benefits-and-drawbacks-for-doupont-holdings-llc)
+Gives an insight on the ups and downs for Doupont Holdings LLC for each service model
+
+### [Why these Servicemodels](projectdocumentation/B1-servicemodel/evaluation-of-servicemodel.md#reasons-why-paas)
 Gives an insight on why I came to this conclusion
-
 
 
 
