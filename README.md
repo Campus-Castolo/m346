@@ -16,22 +16,26 @@ The E-Mail sent by the Head of Engineering at Doupont Holdings LLC, stating that
 
 ---
 
-## Analysis
+## A1 - Analysis
 
-### [General Analysis of Doupont Holdings LLC](projectdocumentation/analysis/analysis-doupont-holdings.md#general-analysis-of-the-firm)
+### [General Analysis of Doupont Holdings LLC](projectdocumentation/A1-analysis/analysis-doupont-holdings.md#general-analysis-of-the-firm)
 Gives an insight how Doupont Holdings LLC is built.
 
-### [Requirements of Doupont Holdings LLC](projectdocumentation/analysis/analysis-doupont-holdings.md#requirements-for-their-cloud-platform)
+### [Requirements of Doupont Holdings LLC](projectdocumentation/A1-analysis/analysis-doupont-holdings.md#requirements-for-their-cloud-platform)
 Gives an insight what requirements Doupont Holdings LLC is expecting from the cloud plattform.
 
-### [Migration of DHLLC Applications](projectdocumentation/analysis/analysis-doupont-holdings.md#applications-to-migrate-to-the-cloud)
+### [Migration of DHLLC Applications](projectdocumentation/A1-analysis/analysis-doupont-holdings.md#applications-to-migrate-to-the-cloud)
 Gives an insight which DHLLC Applications could be migrated to the cloud.
 
-## Evaluation servicemodels
+## B1 - Evaluation servicemodels
 
-based on analysis of the firm choose servicmodel
+### [Optimal Servicemodel](projectdocumentation/B1-servicemodel/)
+Gives an insight of which servicemodels fit Doupont Holdings LLC the best based on the previous analysis.
 
-define why
+### [Why these Servicemodels](projectdocumentation/B1-servicemodell/)
+Gives an insight on why I came to this conclusion
+
+
 
 
 
