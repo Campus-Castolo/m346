@@ -27,6 +27,14 @@ The Mille-Feuille patisserie in Geneva holds a special place in the company's hi
 
 In conclusion, Doupont Holdings LLC is a diversified firm with a rich history, a commitment to sustainability, and a global presence. Its ability to adapt, diversify, and make strategic acquisitions has positioned it as a notable player in various industries. This historical and strategic context is essential for developing a cloud computing strategy and determining which applications should be migrated to the cloud.
 
+## **IT Analysis of the Doupont Holdings LLC:**
+
+As a result of Doupont Holdings LLC's numerous acquisitions, the demand for their on-premise server-hosted applications has significantly increased. This surge in usage has created a need for additional power to support their expanding infrastructure. In the business proposal put forth by Éric Doulmont, an attachment outlines the current infrastructure of Doupont Holdings LLC, providing a comprehensive overview of their existing setup.
+
+![Doupont Holdings LLC On-Prem](../images/Doupont-Holdings-LLC-Infrastructure-On-Prem.png)
+
+However, it is important to note that the infrastructure of Doupont Holdings and their acquired firms is separate.
+
 ## **Requirements for Their Cloud Platform:**
 
 **a. Scalability:** Given the diverse business units and potential for future acquisitions, the cloud platform must be highly scalable to accommodate growth.
