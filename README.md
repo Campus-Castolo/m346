@@ -37,6 +37,10 @@ Gives an insight on the ups and downs for Doupont Holdings LLC for each service 
 ### [Why these Servicemodels](projectdocumentation/B1-servicemodel/evaluation-of-servicemodel.md#reasons-why-paas)
 Gives an insight on why I came to this conclusion
 
+## C1 - Cost Evaluation
+
+### [AWS-Service Cost Estimate](projectdocumentation/C1-cost-analysis/aws-estimate.pdf)
+
 
 
 
