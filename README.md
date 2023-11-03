@@ -40,6 +40,12 @@ Gives an insight on why I came to this conclusion
 ## C1 - Cost Evaluation
 
 ### [AWS-Service Cost Estimate](projectdocumentation/C1-cost-analysis/aws-estimate.pdf)
+Gives an insight on the costs of the cloud plattform
+
+## D1 - Market Analysis
+
+### [Market Analysis](projectdocumentation/D1-market-analysis/reasoning.md)
+Gives an insight on the 
 
 
 
