@@ -2,16 +2,16 @@
 
 ## Introduction
 
-### [Projectcompetency matrix](projectdocumentation/introduction/competencies.md)
+### [Projectcompetency matrix](projectdocumentation/!0-introduction/competencies.md)
 Gives an insight on the competencies I need to fullfil.
 
-### [Who is Doupont Holdings](projectdocumentation/introduction/history-doupont-holdings.md#who-is-doupont-holdings-llc)
+### [Who is Doupont Holdings](projectdocumentation/!0-introduction/history-doupont-holdings.md#who-is-doupont-holdings-llc)
 Gives an insight who Doupont Holdings is and where they come from.
 
-### [Values of Doupont Holdings](projectdocumentation/introduction/history-doupont-holdings.md#what-are-the-values-of-doupont-holdings)
+### [Values of Doupont Holdings](projectdocumentation/!0-introduction/history-doupont-holdings.md#what-are-the-values-of-doupont-holdings)
 Gives an insight into the core-values of Doupont Holdings.
 
-### [Business Proposal](projectdocumentation/introduction/proposal-doupont-holdings.md)
+### [Business Proposal](projectdocumentation/!0-introduction/proposal-doupont-holdings.md)
 The E-Mail sent by the Head of Engineering at Doupont Holdings LLC, stating that Doupont Holdings is in need of a migration from some on-prem services.
 
 
@@ -45,16 +45,15 @@ Gives an insight on the costs of the cloud plattform
 ## D1 - Market Analysis
 
 ### [Market Analysis](projectdocumentation/D1-market-analysis/reasoning.md)
-Gives an insight on the 
+Comparision between Azure and AWS
 
+## E1 - Conceptualisation
 
+### [Cloud enviornment concept](projectdocumentation/E1-conceptualisation/cloud-env-concept.md#cloud)
+Gives insight on the structure of the cloud plattform.
 
+### [Intended funcionality](projectdocumentation/E1-conceptualisation/cloud-env-concept.md#functionality)
+Gives insight on how this concept should function.
 
-### [Namingconvention](projectdocumentation/naming-convention.md)
-Gives an Insight into the naming convention I used for the Doupont Holdings LLC, cloud based enviornment.
-
-### [VPC Subnet Configurations](projectdocumentation/network-configurations.md#vpc-subent)
-Gives an Insight into the configurations I made for the Doupont Holdings LLC VPC, cloud based enviornment.
-
-### [VPC Security Group Configurations](projectdocumentation/network-configurations.md#security-groups)
-Gives an Insight into the configuration I made for the Doupont Holdings LLC SGs.
+### [Cloud service accessibility](projectdocumentation/E1-conceptualisation/cloud-env-concept.md#accessibility)
+Gives insight on how customers and developers can interact with the cloud plattform.
