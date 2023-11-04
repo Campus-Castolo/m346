@@ -14,3 +14,5 @@ Note that I wont add each and every service in here just because they are there.
 |---------|----------------|-------|-------------|-------------|
 | example | sg             | dhllc | public      | us-east-1*  |
 | example | sg             | dhllc | private     | us-east-1*  |
+
+allows users to access cloud with the given ip version over the given protocol
