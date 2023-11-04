@@ -61,8 +61,21 @@ Gives insight on how customers and developers can interact with the cloud plattf
 ## F1 - Realisation
 
 ### [Setting up VPC](projectdocumentation/F1-realisation/infrastructure-setup.md#setting-up-vpc)
+Shows where to create VPC
 
-### [Setting up Subnet](projectdocumentation/F1-realisation/infrastructure-setup.md#setting-up-subnet)
+### [Creating VPC and Subnet](projectdocumentation/F1-realisation/infrastructure-setup.md#creating-vpc-and-subnet)
+Shows how to create VPC and Subnet
+
+### [Naming Convention SG](projectdocumentation/F1-realisation/naming-convention.md#naming-convention-of-aws-sg)
+Gives Insight on the naming convention for the security groups of doupont holdings cloud.
+
+### [Configuring Security Group Public]
+Shows how to create a security group for public subnet
+
+### [Configuring Security Group Private]
+Shows how to create a security group for private subnet
+
+### [Naming Convention EC2](projectdocumentation/F1-realisation/naming-convention.md#naming-convention-of-aws-ressources-instances-etc)
 
 ### [Setting up EC2]
 
