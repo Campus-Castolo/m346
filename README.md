@@ -69,11 +69,8 @@ Shows how to create VPC and Subnet
 ### [Naming Convention SG](projectdocumentation/F1-realisation/naming-convention.md#naming-convention-of-aws-sg)
 Gives Insight on the naming convention for the security groups of doupont holdings cloud.
 
-### [Configuring Security Group Public]
-Shows how to create a security group for public subnet
-
-### [Configuring Security Group Private]
-Shows how to create a security group for private subnet
+### [Creating Security Group](projectdocumentation/F1-realisation/security-group-setup.md#creating-a-security-group)
+Shows how to create a security group for public subnet.
 
 ### [Naming Convention EC2](projectdocumentation/F1-realisation/naming-convention.md#naming-convention-of-aws-ressources-instances-etc)
 
