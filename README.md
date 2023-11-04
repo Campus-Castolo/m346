@@ -57,3 +57,21 @@ Gives insight on how this concept should function.
 
 ### [Cloud service accessibility](projectdocumentation/E1-conceptualisation/cloud-env-concept.md#accessibility)
 Gives insight on how customers and developers can interact with the cloud plattform.
+
+## F1 - Realisation
+
+### [Setting up VPC]
+
+### [Setting up Subnet]
+
+### [Setting up EC2]
+
+### [Associating EIP]
+
+### [Configuring EC2]
+
+### [Creating Target Group]
+
+### [Creating Loadbalancer]
+
+### [Check if Application is running]
