@@ -336,7 +336,7 @@ You can check if the transfer was successful. Once completed, you can delete the
 
 Et voilà, you're done!
 
-![Custom Doupont Holdings Website](images/custom-doupont-holdings-website.gif)
+![Custom Doupont Holdings Website](images/Doupont-Holdings-LLC-Webpage-custom.gif)
 
 ---
 
