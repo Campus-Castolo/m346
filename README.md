@@ -1,5 +1,7 @@
 # Cloud based infrastructure for Doupont Holdings LLC
 
+
+
 ## Introduction
 
 ### [Projectcompetency matrix](projectdocumentation/!0-introduction/competencies.md)
@@ -15,6 +17,7 @@ Gives an insight into the core-values of Doupont Holdings.
 The E-Mail sent by the Head of Engineering at Doupont Holdings LLC, stating that Doupont Holdings is in need of a migration from some on-prem services.
 
 
+
 ## A1 - Analysis
 
 ### [General Analysis of Doupont Holdings LLC](projectdocumentation/A1-analysis/analysis-doupont-holdings.md#general-analysis-of-the-firm)
@@ -25,6 +28,8 @@ Gives an insight what requirements Doupont Holdings LLC is expecting from the cl
 
 ### [Migration of DHLLC Applications](projectdocumentation/A1-analysis/analysis-doupont-holdings.md#applications-to-migrate-to-the-cloud)
 Gives an insight which DHLLC Applications could be migrated to the cloud.
+
+
 
 ## B1 - Evaluation servicemodels
 
@@ -37,15 +42,21 @@ Gives an insight on the ups and downs for Doupont Holdings LLC for each service 
 ### [Why these Servicemodels](projectdocumentation/B1-servicemodel/evaluation-of-servicemodel.md#reasons-why-paas)
 Gives an insight on why I came to this conclusion
 
+
+
 ## C1 - Cost Evaluation
 
 ### [AWS-Service Cost Estimate](projectdocumentation/C1-cost-analysis/aws-estimate.pdf)
 Gives an insight on the costs of the cloud plattform
 
+
+
 ## D1 - Market Analysis
 
 ### [Market Analysis](projectdocumentation/D1-market-analysis/reasoning.md)
 Comparision between Azure and AWS
+
+
 
 ## E1 - Conceptualisation
 
@@ -57,6 +68,8 @@ Gives insight on how this concept should function.
 
 ### [Cloud service accessibility](projectdocumentation/E1-conceptualisation/cloud-env-concept.md#accessibility)
 Gives insight on how customers and developers can interact with the cloud plattform.
+
+
 
 ## F1 - Realisation
 
