@@ -60,9 +60,9 @@ Gives insight on how customers and developers can interact with the cloud plattf
 
 ## F1 - Realisation
 
-### [Setting up VPC]
+### [Setting up VPC](projectdocumentation/F1-realisation/infrastructure-setup.md#setting-up-vpc)
 
-### [Setting up Subnet]
+### [Setting up Subnet](projectdocumentation/F1-realisation/infrastructure-setup.md#setting-up-subnet)
 
 ### [Setting up EC2]
 
