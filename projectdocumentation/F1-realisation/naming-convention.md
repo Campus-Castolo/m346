@@ -25,10 +25,10 @@ Also dhllc in this refers to the name of doupont holdings llc
 
 ## Naming convention of AWS launch template
 
-|            | launch template | intended use | firm  | Type    |
-|------------|-----------------|--------------|-------|---------|
-| example I  | lautmp          | ec2          | dhllc | public  |
-| example II | lautmp          | ec2          | dhllc | private |
+|            | launch template | intended use | firm  | Type    | Purpose |
+|------------|-----------------|--------------|-------|---------|---------|
+| example I  | lautmp          | ec2          | dhllc | public  | Web     |
+| example II | lautmp          | ec2          | dhllc | private | App     |
 
 
 ## Naming convention of AWS Target Group

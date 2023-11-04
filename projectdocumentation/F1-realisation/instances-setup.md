@@ -25,7 +25,20 @@ EC2 instances are pretty versatile in the world of cloud computing:
 
 In a nutshell, EC2 instances are like your cloud-based computers. They're flexible, cost-effective, and can do just about any computing job you throw at them, making them a core part of hosting apps, processing data, and supporting various tasks in the AWS world.
 
+## How to create one
+
+In this video you can see how to create an ec2 isntance. In this case it would be the ec2 instance for the database. Which communicates with the backend.
+
+![create instance](../images/ec2-instance-setup.gif)
+
 ## Web
+The Web-Server is here to host the frontend of Doupont Holdings. Down below you can see the information related to the ec2 instance ***web-server-ec2-dhllc-public1-us-east-1a***.
+
+**General Information**
+|   | Name                                    | Instance ID         | Instance Type | Public IPv4 DNS                            | Elastic IP     | Private IP | Key Name | Security Group                         | Monitoring |
+|---|-----------------------------------------|---------------------|---------------|--------------------------------------------|----------------|------------|----------|----------------------------------------|------------|
+|   | web-server-ec2-dhllc-public1-us-east-1a | i-08da863d394a99874 | t2.small      | ec2-34-194-253-166.compute-1.amazonaws.com | 34.194.253.166 | 10.0.0.10  | Ragnarok | security-group-dhllc-public-us-east-1* |            |
+
 ## App
+
 ## Database
-## S3-Bucket
