@@ -26,3 +26,11 @@ In summary, a Security Group is a critical security mechanism that plays a centr
 In this gif I demonstrate how to create a security group. In my case I created the security group for the private subnet of doupont holdings vpc.
 
 I allowed all incoming traffic from the public security group and allowed all outgoinf traffic from the private security group/subnet.
+
+## Security group Public
+![sg-pub-in](../images/sg-pub-in.png)
+![sg-pub-out](../images/sg-pub-out.png)
+
+## Security group Private
+![sg-pv-in](../images/sg-pv-in.png)
+![sg-pv-out](../images/sg-pv-out.png)
