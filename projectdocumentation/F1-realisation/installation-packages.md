@@ -165,3 +165,87 @@ You can check if the transfer was successful. Once completed, you can delete the
 Et voilà, you're done!
 
 ![Custom Doupont Holdings Website](../images/Doupont-Holdings-LLC-Webpage-custom.gif)
+
+## Securing the connection with SSL-Certificate.
+
+#### **Step 1: Generate a Self-Signed Certificate**
+
+The first step is to generate a self-signed SSL/TLS certificate for your server. You can use the OpenSSL tool to create a self-signed certificate.
+
+Run the following command to generate a self-signed certificate:
+
+```bash
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/self-signed.key -out /etc/ssl/certs/self-signed.crt
+```
+
+This command will create a private key (`self-signed.key`) and a self-signed certificate (`self-signed.crt`) that is valid for 365 days. Adjust the validity period as needed.
+
+#### **Step 2: Configure Your Web Server**
+
+Next, you need to configure your web server (e.g., Apache or Nginx) to use the self-signed certificate. You will need to specify the path to the key and certificate files in your web server configuration.
+
+```apache
+sudo nano /etc/apache2/sites-available/default-ssl.conf
+```
+
+For Apache, you can edit your virtual host configuration file and add the following lines:
+
+```apache
+SSLCertificateFile /etc/ssl/certs/self-signed.crt
+SSLCertificateKeyFile /etc/ssl/private/self-signed.key
+```
+
+it should look like this:
+
+```apache
+<VirtualHost *:443>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/your_domain
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/certs/selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/selfsigned.key
+    ...
+</VirtualHost>
+```
+
+For Nginx, edit your server block configuration file:
+
+```nginx
+ssl_certificate /etc/ssl/certs/self-signed.crt;
+ssl_certificate_key /etc/ssl/private/self-signed.key;
+```
+
+#### **Step 3: Restart Your Web Server**
+
+After configuring your web server, you should restart it to apply the changes. The specific command to restart your web server depends on which one you are using.
+
+For Apache:
+
+```bash
+sudo systemctl restart apache2
+```
+
+For Nginx:
+
+```bash
+sudo systemctl restart nginx
+```
+
+assign them
+
+```apache
+sudo a2enmod ssl
+sudo a2ensite default-ssl
+```
+
+to finalize the changes
+
+```apache
+sudo systemctl restart apache2
+```
+
+#### **Step 4: Access Your Website**
+
+Your self-signed SSL/TLS certificate is now in place. When you visit your website using HTTPS, your browser will show a warning that the certificate is not trusted since it's self-signed. You can choose to proceed and access your website securely.
+
+Remember that self-signed certificates are not suitable for production websites but are useful for testing and development environments.
