@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
     <!-- Include UIkit JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -102,13 +102,64 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="uk-section">
-        <div class="uk-container">
-            <h2 class="uk-heading-small">Your Portfolio</h2>
-            <!-- Add your portfolio items here -->
+<!-- Portfolio Section -->
+
+<section id="portfolio" class="uk-section">
+    <div class="uk-container">
+        <h2 class="uk-heading-small">Your Portfolio</h2>
+        
+        <!-- Cards for AgriBusiness, FinancialAdvisory, and TechStack -->
+
+        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">AgriBusiness</h3>
+                    <div id="agribusiness-data"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">FinancialAdvisory</h3>
+                    <div id="financialadvisory-data"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">TechStack</h3>
+                    <div id="techstack-data"></div>
+                </div>
+            </div>
         </div>
-    </section>
+    <script>
+        $(document).ready(function() {
+            // Function to fetch and display data for a specific category
+            function fetchDataAndDisplay(category, divId) {
+                $.get("http://127.0.0.1:5000/" + category, function(data) {
+                    var dataDiv = $(divId);
+                    dataDiv.empty(); // Clear existing data
+                    data.forEach(function(item) {
+                        dataDiv.append("<p>" + item[1] + "</p>"); // Use <p> elements to display the data
+                    });
+                });
+            }
+
+            // Fetch and display TechStack data
+            fetchDataAndDisplay("techstack", "#techstack-data");
+
+            // Fetch and display AgriBusiness data
+            fetchDataAndDisplay("agribusiness", "#agribusiness-data");
+
+            // Fetch and display Financial Advisory data
+            fetchDataAndDisplay("financialadvisory", "#financialadvisory-data");
+        });
+    </script>
+
+        <!-- Cards for AgriBusiness, FinancialAdvisory, and TechStack -->
+
+    </div>
+</section>
+
+<!-- Portfolio Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="uk-section">
@@ -129,6 +180,7 @@
             </form>
         </div>
     </section>
+
 
     <!-- Footer Section -->
     <footer class="uk-section uk-section-secondary uk-light">
