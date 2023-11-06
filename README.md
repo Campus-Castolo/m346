@@ -88,8 +88,11 @@ Shows how to create a security group.
 ### [Naming Convention EC2](projectdocumentation/F1-realisation/naming-convention.md#naming-convention-of-aws-ressources-instances-etc)
 Gives Insight on the naming convention for the instances of doupont holdings cloud.
 
-### [Setting up EC2]
+### [Setting up EC2]()
 Shows how to create a ec2 instance.
+
+### [Installing Packages Web EC2](projectdocumentation/F1-realisation/installation-packages-ec2-web.md)
+Shows how to configure an ec2 instance to be a web-server by utilizing apache2.
 
 ### [Associating EIP]
 

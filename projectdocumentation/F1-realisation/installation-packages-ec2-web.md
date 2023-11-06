@@ -239,6 +239,7 @@ SSLCertificateKeyFile /etc/ssl/private/self-signed.key
 ```
 
 it should look like this:
+Note that you should just delete everything in your default-ssl-conf if you're using this method.
 
 ```apache
 <VirtualHost *:443>
