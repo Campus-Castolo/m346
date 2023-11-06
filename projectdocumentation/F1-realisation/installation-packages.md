@@ -117,7 +117,48 @@ Next, create a sample `index.html` page using `nano` or a editor of your choice:
 sudo nano /var/www/dhllc/index.html
 ```
 
-This is a viable option if you wan't to work with a simple website however if you have a bigger project that needs CSS, JS and all that stuff you'll most likely use the following option.
+In order for Apache to serve this content, it’s necessary to create a virtual host file with the correct directives. Instead of modifying the default configuration file located at `/etc/apache2/sites-available/000-default.conf` directly, let’s make a new one at `/etc/apache2/sites-available/dhllc.conf`:
+
+```bash
+sudo nano /etc/apache2/sites-available/dhllc.conf
+```
+
+Paste in the following configuration block, which is similar to the default, but updated for our new directory and domain name:
+
+```
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName dhllc-web
+    ServerAlias www.doupont-holdings
+    DocumentRoot /var/www/dhllc
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+
+Notice that we’ve updated the `DocumentRoot` to our new directory and `ServerAdmin` to an email that the **dhllc** site administrator can access. We’ve also added two directives: `ServerName`, which establishes the base domain that should match for this virtual host definition, and `ServerAlias`, which defines further names that should match as if they were the base name.
+
+Save and close the file when you are finished.
+
+Let’s enable the file with the `a2ensite` tool:
+
+    sudo a2ensite dhllc.conf
+Disable the default site defined in 000-default.conf:
+
+    sudo a2dissite 000-default.conf
+Next, let’s test for configuration errors:
+
+    sudo apache2ctl configtest
+You should receive the following output:
+
+    Output
+    Syntax OK
+Restart Apache to implement your changes:
+
+    sudo systemctl restart apache2
+
+While this is a viable option, I'd only recommend this if you're only using a static website without having it dynamic. If you plan to deploy a web-app I'd to it by transfering your custom website to an ec2 instance via SCP.
+
 
 ## Transferring Your Custom Website to an EC2 Instance via SCP
 
@@ -153,12 +194,14 @@ Now, you can copy your local files onto the EC2 instance using the `scp` command
 - `/home/ubuntu/transfer_folder`: The path to the transfer folder on your EC2 instance.
 
 ```bash
-scp -i "/path/to/your/key" -r /path/to/your/folder ubuntu@ec2-52-70-73-92.compute-1.amazonaws.com:/home/ubuntu/transfer_folder 
+scp -i "/path/to/your/key" -r /path/to/your/folder ubuntu@ec2-34-194-253-166.compute-1.amazonaws.com:/home/ubuntu/transfer_folder 
 ```
 
 ### Step 4: Verify the Transfer
 
 You can check if the transfer was successful. Once completed, you can delete the old `index.html` file in the appropriate folder location and move your custom website files into place. Your website is now live on your EC2 instance!
+
+Of course you'll need to adjust your config file again.
 
 ![Output SCP](../images/output-scp.png)
 
