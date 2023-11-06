@@ -26,5 +26,34 @@ This only works if you already have a ***folder named keys*** on your web server
 
 </details>
 
+## Installation Packages
+Once your connected to your AWS EC2 Instance you must install your software packages.
+
+#### **updating and upgrading package manager**
+The first thing you'll need to do is to ensure that you always download the latest software. This can be done by entering the following commands:
+
+    sudo apt update
+    sudo apt upgrade
+
+#### **installing the python3-pip**
+Install the necessary package to run python. This will ensure that you can download your required packages is running properly. 
+
+    sudo apt install python3-pip
+
+#### **installing the required packages with pip**
+With the previous downloaded package you can now download python packages/libraries. You'll need the following packages, to ensure that your script can run as intended, this you can do with the following command:
+
+    pip3 install flask mysql-connector-python flask-cors
+
+#### **coding and activating your script**
+In my case I coded my script before hand. To see the script you can look into it here --> [📄Flask Backend](../../projectfiles/app/app.py)
+
+Also to run your python script or in this case your backend you'll need to activate or give your script execution rights. You can do this by executing the command:
+
+    chmod +x your_flask_app.py
+
+
+
+
 
 
