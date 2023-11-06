@@ -278,7 +278,7 @@ assign them
 
 ```apache
 sudo a2enmod ssl
-sudo a2ensite default-ssl
+sudo a2ensite dhllc-ssl
 ```
 
 to finalize the changes
