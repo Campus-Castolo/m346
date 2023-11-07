@@ -1,0 +1,91 @@
+<mxfile host="65bd71144e">
+    <diagram id="uNuPHRr_tndB5kUHUSU5" name="Page-1">
+        <mxGraphModel dx="208" dy="1299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="60" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#0D0D0D;fontColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="200" width="790" height="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0D0D0D;fontColor=default;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1150" y="274" width="510" height="606" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F0F0F;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="291" width="340" height="306" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Subnet&amp;nbsp;us-east-1a&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot; data-testid=&quot;column-value&quot;&gt;&lt;div data-id=&quot;copy-to-clipboard&quot;&gt;&lt;div data-awsui-referrer-id=&quot;75-1695721212005-2399&quot; class=&quot;awsui-polaris-compact-mode awsui-compact-mode awsui_popover-content_xjuzf_15abl_793&quot; aria-atomic=&quot;true&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;span class=&quot;awsui_root_xjuzf_15abl_739&quot;&gt;&lt;/span&gt;&lt;div data-testid=&quot;column-value&quot;&gt;&lt;div data-id=&quot;copy-to-clipboard&quot;&gt;&lt;div data-awsui-referrer-id=&quot;75-1695721212005-2399&quot; class=&quot;awsui-polaris-compact-mode awsui-compact-mode awsui_popover-content_xjuzf_15abl_793&quot; aria-atomic=&quot;true&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;span class=&quot;awsui_root_xjuzf_15abl_739&quot;&gt;&lt;/span&gt;172.31.16.0/20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#191919;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="608.25" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Subnet&amp;nbsp;us-east-1c&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot; data-testid=&quot;column-value&quot;&gt;&lt;div data-id=&quot;copy-to-clipboard&quot;&gt;&lt;div data-awsui-referrer-id=&quot;75-1695721212005-2399&quot; class=&quot;awsui-polaris-compact-mode awsui-compact-mode awsui_popover-content_xjuzf_15abl_793&quot; aria-atomic=&quot;true&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;span class=&quot;awsui_root_xjuzf_15abl_739&quot;&gt;&lt;/span&gt;&lt;div data-testid=&quot;column-value&quot;&gt;&lt;div data-id=&quot;copy-to-clipboard&quot;&gt;&lt;div data-awsui-referrer-id=&quot;75-1695721212005-2399&quot; class=&quot;awsui-polaris-compact-mode awsui-compact-mode awsui_popover-content_xjuzf_15abl_793&quot; aria-atomic=&quot;true&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;span class=&quot;awsui_root_xjuzf_15abl_739&quot;&gt;&lt;/span&gt;172.31.0.0/20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#191919;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="656.5" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Subnet&amp;nbsp;us-east-1d&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot; data-testid=&quot;column-value&quot;&gt;&lt;div data-id=&quot;copy-to-clipboard&quot;&gt;&lt;div data-awsui-referrer-id=&quot;75-1695721212005-2399&quot; class=&quot;awsui-polaris-compact-mode awsui-compact-mode awsui_popover-content_xjuzf_15abl_793&quot; aria-atomic=&quot;true&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;span class=&quot;awsui_root_xjuzf_15abl_739&quot;&gt;&lt;/span&gt;172.31.80.0/20&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#191919;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="710" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Subnet&amp;nbsp;us-east-1e&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot; data-testid=&quot;column-value&quot;&gt;&lt;div data-id=&quot;copy-to-clipboard&quot;&gt;&lt;div data-awsui-referrer-id=&quot;75-1695721212005-2399&quot; class=&quot;awsui-polaris-compact-mode awsui-compact-mode awsui_popover-content_xjuzf_15abl_793&quot; aria-atomic=&quot;true&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;span class=&quot;awsui_root_xjuzf_15abl_739&quot;&gt;&lt;/span&gt;172.31.48.0/20&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#191919;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="760" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Subnet&amp;nbsp;us-east-1f&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot; data-testid=&quot;column-value&quot;&gt;&lt;div data-id=&quot;copy-to-clipboard&quot;&gt;&lt;div data-awsui-referrer-id=&quot;75-1695721212005-2399&quot; class=&quot;awsui-polaris-compact-mode awsui-compact-mode awsui_popover-content_xjuzf_15abl_793&quot; aria-atomic=&quot;true&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;span class=&quot;awsui_root_xjuzf_15abl_739&quot;&gt;&lt;/span&gt;172.31.64.0/20&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#191919;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="810" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="403" width="69" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Allow 80, 443&lt;br&gt;Deny rest" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1340" y="319" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;EC2 (DB)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;172.31.40.34&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1510" y="476" width="66.5" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;EC2 (Web)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;172.31.47.52&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1510" y="317.5" width="66.5" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Allow 3306&lt;br&gt;Deny rest" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1340" y="479" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1140" y="246" width="79.5" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;font&gt;Internet&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#121111;fontColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="399" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="3306" style="endArrow=classic;startArrow=classic;html=1;labelBackgroundColor=#FAFAFA;strokeColor=#000000;fontColor=#000000;" parent="1" source="46" target="44" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1370" y="496.5" as="sourcePoint"/>
+                        <mxPoint x="1420" y="446.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="80&lt;br&gt;443" style="endArrow=classic;startArrow=classic;html=1;labelBackgroundColor=#FAFAFA;strokeColor=#000000;fontColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1421" y="359" as="sourcePoint"/>
+                        <mxPoint x="1531" y="359" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="endArrow=classic;startArrow=classic;html=1;labelBackgroundColor=#FAFAFA;strokeColor=#000000;fontColor=#000000;" parent="1" source="42" target="43" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1330" y="260" as="sourcePoint"/>
+                        <mxPoint x="1380" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="" style="endArrow=classic;startArrow=classic;html=1;labelBackgroundColor=#FAFAFA;strokeColor=#000000;fontColor=#000000;" parent="1" source="42" target="46" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1285" y="426.20430107526886" as="sourcePoint"/>
+                        <mxPoint x="1350" y="390.7921146953406" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="Virtual Private Cloud us-east-1 (172.31.0.0/16)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1206.5" y="850" width="390" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;span style=&quot;&quot;&gt;Subnet&amp;nbsp;us-east-1b&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;div style=&quot;&quot; data-testid=&quot;column-value&quot;&gt;&lt;div data-id=&quot;copy-to-clipboard&quot;&gt;&lt;div data-awsui-referrer-id=&quot;75-1695721212005-2399&quot; class=&quot;awsui-polaris-compact-mode awsui-compact-mode awsui_popover-content_xjuzf_15abl_793&quot; aria-atomic=&quot;true&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;span class=&quot;awsui_root_xjuzf_15abl_739&quot;&gt;&lt;/span&gt;172.31.32.0/20&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="291" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="IP:80&lt;br&gt;IP:443&lt;br&gt;IP:3306" style="endArrow=classic;startArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#000000;fontColor=#050505;" parent="1" source="42" target="49" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1260" y="540" as="sourcePoint"/>
+                        <mxPoint x="1310" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
