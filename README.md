@@ -94,13 +94,21 @@ Shows how to create a ec2 instance.
 ### [Installing Packages Web EC2](projectdocumentation/F1-realisation/installation-packages-ec2-web.md)
 Shows how to configure an ec2 instance to be a web-server by utilizing apache2.
 
-### [Associating EIP]
+### [Associating EIP](projectdocumentation/F1-realisation/eip-setup.md)
+Shows how to create and associate EIP
 
 
-### [Configuring EC2]
+### [Configuring EC2](projectdocumentation/F1-realisation/infrastructure-setup.md)
+Shows the configruation for each ec2
 
-### [Creating Target Group]
+### [Configuring EC2 Web](projectdocumentation/F1-realisation/installation-packages-ec2-web.md)
+Shows the packages for the ec2 web instance
 
-### [Creating Loadbalancer]
+### [Configuring EC2 App](projectdocumentation/F1-realisation/installation-packages-ec2-app.md)
+Shows the packages for the ec2 app instance
 
-### [Check if Application is running]
+### [Configuring EC2 DB](projectdocumentation/F1-realisation/installation-packages-ec2-db.md)
+Shows the packages for the ec2 db instance
+
+### [Check if Application is running](projectdocumentation/F1-realisation/proof.md)
+Shows proof that it works
