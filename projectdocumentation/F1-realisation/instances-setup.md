@@ -54,3 +54,12 @@ The App-Server is here to act as the backend to the frontend of Doupont Holdings
 You can see further Information to the Configuration of the ec2 app-server instance at the following document: --> [📄Installation PKG ec2](installation-packages-ec2-app.md)
 
 ## Database
+The DB-Server is here to serve the data to the backend which then in turn serves it to the frontend. Down below you can see the information related to the ec2 instance **db-server-ec2-dhllc-private1-us-east-1a**.
+
+**General Information**
+| Name                                    | Instance ID         | Instance Type | Public IPv4 DNS | Elastic IP | Private IP  | Key Name | Security Group                          | Monitoring |
+|-----------------------------------------|---------------------|---------------|-----------------|------------|-------------|----------|-----------------------------------------|------------|
+| db-server-ec2-dhllc-private1-us-east-1a | i-0cfa29cc5f716b02f | t2.small      | -               | -          | 10.0.128.20 | ochnun   | security-group-dhllc-private-us-east-1* | disabled   |
+
+**Configuration Information**
+You can see further Information to the Configuration of the ec2 db-server instance at the following document: --> [📄Installation PKG ec2](installation-packages-ec2-db.md)
