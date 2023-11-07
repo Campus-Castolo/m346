@@ -94,5 +94,7 @@ This also doesnt work since I dont have permissions, so I tried to create a lamb
 
 Since I dont have that I cannot. Literally cannot create a backup. Unfortunatelly there is nothing I can do, so yeah.
 
+I need my AWS-Access Key and my other credentials to install AWS-CLI and I dont have them. I need access to create users I dont have them, I need access to create lambda function I dont have them. suffice to say this module should give their students more freedom or lower their expectiations.
+
 
 
