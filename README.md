@@ -112,3 +112,8 @@ Shows the packages for the ec2 db instance
 
 ### [Check if Application is running](projectdocumentation/F1-realisation/proof.md)
 Shows proof that it works
+
+## J1 - Monitoring
+
+#### [CloudWatch](projectdocumentation/J1-monitoring/cloudwatch.md)
+Shows how to configure AWS Cloudwatch
