@@ -1,0 +1,15 @@
+#cloud-config
+users:
+  - name: ubuntu # Definiert einen Benutzer mit dem Namen "ubuntu".
+    sudo: ALL=(ALL) NOPASSWD:ALL # Ermöglicht dem Benutzer, sudo-Befehle ohne Passwort einzugeben.
+    groups: users, admin # Fügt den Benutzer zu den Gruppen "users" und "admin" hinzu.
+    home: /home/ubuntu # Legt das Heimatverzeichnis des Benutzers auf "/home/ubuntu" fest.
+    shell: /bin/bash # Setzt die Standard-Shell des Benutzers auf "/bin/bash".
+    ssh_authorized_keys: # Fügt den öffentlichen SSH-Schlüssel zur Liste der autorisierten Schlüssel hinzu.
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCGavILd6smIywMqIQDLD1kA57JQ7+Z9UCexcrWdsFk6/4FayqhJU4xUhJVqKlJmR2HI8gRczfwEA5RLE9iUk6+AD622CSRgNBMVFahxcupiHZwLdssVAq8sZXi4+mx+mCzKdc6dpSdsFOsEE9Ny+l2kx1Sv/cPyjwp204+ak4VvJb8XEOCXIPqEicNTStHjsHWn3UV+NHMJNueZW4OfHeK3VikM8fb8NkOkSl34B0kgdzmYk1fsXNOfan0maqX288f3kWo/iq3ZWmkePvPmlhsjYniZkpyuCFeYwvvju4K23DaSsrycNe/DWhdQUvZQ0MQG+PvC47Yrc5SHsYsBK2p aws-key
+ssh_pwauth: false # Deaktiviert die SSH-Passwortauthentifizierung
+disable_root: false # Erlaubt den Zugriff auf das Root-Konto.
+package_update: true # Aktualisiert das Paketrepository, um die neuesten Paketinformationen abzurufen.
+packages: # Installiert die Pakete "curl" und "wget" mithilfe des Paketmanagers.
+  - curl
+  - wget
