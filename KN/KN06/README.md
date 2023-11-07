@@ -47,13 +47,3 @@ Es ist möglich, AWS-Speicher zu einer laufenden Instanz hinzuzufügen, ohne die
 Wir müssen eine Zielgruppe definieren, um festzustellen, welche beiden Instanzen betroffen sind. Anschliessend richten wir den Load Balancer ein, der auf diese Zielgruppe verweist, die wiederum auf die Instanzen verweist. Von dort aus können wir die DNS-Adresse des Load Balancers aufrufen, und er sollte die Last zwischen den beiden Instanzen ausbalancieren.
 
 Unter Route 53 haben Sie die Möglichkeit, Ihre eigene Domain zu registrieren oder zu transferieren. Dadurch können Sie Ihre eigenen Instanzen und Load Balancers einer Subdomain hinzufügen.
-
-### Sie zeigen ihre laufende Umgebung der Lehrperson.
-
-- [X] Sie zeigen ihre laufende Umgebung der Lehrperson.
-
-## Auto Scaling
-
-### Zeigen Sie ihre laufende Umgebung der Lehrperson.
-
-- [X] Sie zeigen ihre laufende Umgebung der Lehrperson.
