@@ -30,10 +30,6 @@ packages: # Installiert die Pakete "curl" und "wget" mithilfe des Paketmanagers.
 
 ![Alt text](image-3.png)
 
-### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des ersten Schlüssels.
-
-![ssh-Befehl Schlüssel 1](./src/SSH_Befehl_Schluessel_1.png)
-
 ### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des zweiten Schlüssels.
 
 ![Alt text](image-4.png)
@@ -74,16 +70,13 @@ runcmd:
 ### Beweisführung DB Server
 
 #### Shell verbindung von Hostsystem.
-
-![Shell](./src/shell.png)
+![Alt text](image-7.png)
 
 #### Telnet verbindung von Hostsystem.
 
-![Telnet](./src/telnet.png)
+![Alt text](image-8.png)
 
 #### Fügen Sie die Cloud-Init-Datei im Git-Repository hinzu.
-
-[Cloud-Init-Datei](./src/cloud-init-db.yaml)
 
 ```yml
 #cloud-config
@@ -112,19 +105,19 @@ runcmd:
 
 #### index.html
 
-![index.html](./src/indexhtml.png)
+![Alt text](image-9.png)
 
 #### info.php
 
-![info.php](./src/infophp.png)
+![Alt text](image-10.png)
 
 #### db.php
 
-![db.php](./src/dbphp.png)
+![Alt text](image-11.png)
 
 #### adminer
 
-![adminer](./src/adminer.png)
+![Alt text](image-12.png)
 
 #### Fügen Sie die Cloud-Init-Datei im Git-Repository hinzu.
 
