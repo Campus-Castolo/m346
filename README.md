@@ -117,3 +117,19 @@ Shows proof that it works
 
 #### [CloudWatch](projectdocumentation/J1-monitoring/cloudwatch.md)
 Shows how to configure AWS Cloudwatch
+
+## K1 - Scaling
+
+#### [Scaling LoadBalancer](projectdocumentation/K1-scaling/loadbalancer.md)
+
+#### [Target Group](projectdocumentation/K1-scaling/targetgroup.md)
+
+#### [Auto Scaler](projectdocumentation/K1-scaling/autoscaler.md)
+
+## Reflection
+
+To be completely honest, I've gained a wealth of knowledge throughout this course, mastering skills like setting up Virtual Private Clouds (VPC) and creating EC2 instances, among other things. However, there has been one persistent frustration that has hindered my progress – the lack of proper permissions. This obstacle has forced me to constantly seek out workarounds, build things from the ground up, and find creative solutions. Unfortunately, there were situations where even employing a cloud-init file couldn't resolve the issue.
+
+For instance, one particular challenge that baffled me was the limitation placed on creating our own Lambda functions for the "Backup" module. Similarly, the restriction on generating our own certificates for the load balancer left me perplexed. I couldn't comprehend why these restrictions existed. The same puzzlement arose with the global accelerator module, where our hands were tied.
+
+What I earnestly hope for the next module is a more permissive approach that grants students greater freedom, minimizing the need for workarounds. Additionally, early and clear communication of upcoming activities that can positively impact our grades would be greatly appreciated.
