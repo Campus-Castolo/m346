@@ -16,9 +16,9 @@ cd Downloads
 This command will bring you into your downloads folder. Now type the following command to get your private key of your app-server onto the web-server.
 
 
-    scp -i .\Ragnarok.pem .\Silinka.pem  ubuntu@ec2-3-211-52-37.compute-1.amazonaws.com:/home/ubuntu/keys
+    scp -i .\Ragnarok.pem .\ochnun.pem  ubuntu@ec2-3-211-52-37.compute-1.amazonaws.com:/home/ubuntu/keys
 
-Now connect to your EC2 web-server instance.
+Now connect to your EC2 web-server instance. And then go into your `keys` folder and then connect to your db-server
 
 <details><summary><h4>Note</h4></summary>
 
@@ -35,27 +35,20 @@ The first thing you'll need to do is to ensure that you always download the late
     sudo apt update
     sudo apt upgrade
 
-#### **installing the python3-pip**
+#### **installing MySQL Server**
 Install the necessary package to run python. This will ensure that you can download your required packages is running properly. 
 
-    sudo apt install python3-pip
+    sudo apt install mysql-server
 
-#### **installing the required packages with pip**
-With the previous downloaded package you can now download python packages/libraries. You'll need the following packages, to ensure that your script can run as intended, this you can do with the following command:
+#### **Creating a user**
+With the mysql-server downloaded you can now connect to the mysql server by using the following command:
 
-    pip3 install flask mysql-connector-python flask-cors
+    sudo mysql
 
-#### **coding and activating your script**
-In my case I coded my script before hand. To see the script you can look into it here --> [📄Flask Backend](../../projectfiles/app/app.py)
+After your connected to your mysql server, you begin by creating a user in my case I created a user with the name `dhllc-adm` and the password `Abcd12s8rkds!`. You can do this with the following commands
 
-Also to run your python script or in this case your backend you'll need to activate or give your script execution rights. You can do this by executing the command:
+    CREATE USER 'dhllc-adm'@'localhost' IDENTIFIED BY 'Abcd12s8rkds!';
+    GRANT ALL PRIVILEGES ON your_database_name.* TO 'dhllc-adm'@'localhost';
+    FLUSH PRIVILEGES;
 
-    chmod +x your_flask_app.py
-
-Then run your python script with the following command:
-
-    python3 app.py
-
-
-
-
+With this the script that is running on the `app-server` it should be able to access your DB-Server.
