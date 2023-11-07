@@ -24,6 +24,6 @@ Since this is the prot on which the application runs.
 
 #### **Database: Doupont Holdings**
 
-![Alt text](image.png)
+![Alt text](../images/db-proof.png)
 
 This is the output I've got by executing a script on the app-server. Which communicates with the db-server. This proves that the db-server hold actual information.
